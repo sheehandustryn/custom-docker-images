@@ -1,5 +1,5 @@
 FROM alpine:3.15
-LABEL maintainer="Robert Carlson <robert.carlson@williamhill.us"
+LABEL maintainer="Robert Carlson <tech@sheehandustryn.com"
 LABEL updated=_at="2022-04-12"
 COPY kafkacat-1.6.0-r0.apk .
 COPY sgerrand.rsa.pub /etc/apk/keys/sgerrand.rsa.pub
